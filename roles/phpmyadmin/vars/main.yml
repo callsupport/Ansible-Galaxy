@@ -1,0 +1,4 @@
+- - - 
+phpmyadmin_db_host: localhost
+phpmyadmin_db_user: admin
+phpmyadmin_db_pass: "2468"

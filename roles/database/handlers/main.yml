@@ -1,0 +1,9 @@
+---
+- name: Démarrer le service mariadb
+  ansible.builtin.service:
+    name: mariadb
+    state: started
+    enabled: true
+  become: true
+  when: mariadb_version == "latest"
+```

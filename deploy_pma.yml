@@ -1,0 +1,6 @@
+---
+- name: deploy_pma.yml
+  hosts: localhost
+  roles:
+    - role: database 
+    - role: phpmyadmin 
