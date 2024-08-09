@@ -22,3 +22,4 @@
     state: present
   become: true
   when: mariadb_version == "latest"
+password: 123456
